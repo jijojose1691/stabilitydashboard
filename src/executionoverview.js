@@ -1,8 +1,8 @@
 import React from 'react';
 import { List, Datagrid, TextField } from 'react-admin';
 
-export const RackList = (props) => (
-    <List title="Rack Overview" {...props}>
+export const ExecutionOverview = (props) => (
+    <List title="Execution Overview" {...props}>
         <Datagrid>
             <TextField source="rack_slot" label="Rack Slot"/>
             <TextField source="rack_slot_id" label="Rack Slot ID"/>
